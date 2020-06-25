@@ -11,4 +11,4 @@ A serial of 52 represents an unknown card ('?').
 # Conversions:
 ## serial == 13 * suit + (rank - 2)
 ## suit == serial ~/ 13
-## rank == serial % 13
+## rank == serial % 13 + 2
